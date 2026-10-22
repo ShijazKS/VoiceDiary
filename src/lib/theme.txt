@@ -1,0 +1,17 @@
+import { Platform } from 'react-native';
+
+export const SERIF = Platform.select({ ios: 'Georgia', default: 'serif' });
+
+/** Shown on the memory card when no photo was added. */
+export const DEFAULT_MEMORY_IMAGE = require('@/assets/default-memory.png');
+
+export const COLORS = {
+  brand: '#6B3215',
+  accent: '#C37439',
+  ink: '#211A17',
+  muted: '#777777',
+  surface: '#FFFDFA',
+  surfaceTint: '#F6E7DB',
+  border: '#F1E5DC',
+  background: '#FCF6F0',
+};
